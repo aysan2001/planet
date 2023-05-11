@@ -1,0 +1,238 @@
+*, body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  position: relative;
+  background-color: rgb(63, 61, 61);
+}
+
+.qutu10 {
+  position: absolute;
+  left: 350px;
+  width: 650px;
+  height: 650px;
+  border-radius: 50%;
+  border: 2px solid rgb(136, 131, 131);
+  animation: qutu10 7s linear;
+}
+.qutu10 .img10 {
+  position: absolute;
+  top: 590px;
+  left: 150px;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(243, 207, 163);
+  border-radius: 50%;
+}
+
+@keyframes qutu10 {
+  0% {
+    transform: rotate(-5deg);
+  }
+}
+.qutu9 {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  left: 375px;
+  top: 25px;
+  border: 2px solid rgb(136, 131, 131);
+  animation: qutu9 5s ease-in;
+}
+.qutu9 .img9 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(106, 196, 249);
+  bottom: 15px;
+  left: 290px;
+}
+
+@keyframes qutu9 {
+  0% {
+    transform: rotate(-8deg);
+  }
+}
+.qutu8 {
+  position: absolute;
+  left: 400px;
+  top: 50px;
+  width: 550px;
+  height: 550px;
+  border-radius: 50%;
+  border: 2px solid rgb(136, 131, 131);
+  animation: qutu8 6s ease-in;
+}
+.qutu8 .img8 {
+  position: absolute;
+  left: 530px;
+  top: 230px;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(63, 116, 232);
+  border-radius: 50%;
+}
+
+@keyframes qutu8 {
+  0% {
+    transform: rotate(-8deg);
+  }
+}
+.qutu7 {
+  position: absolute;
+  left: 425px;
+  top: 76px;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  border: 2px solid rgb(136, 131, 131);
+  animation: qutu7 4s ease-in;
+}
+.qutu7 .img7 {
+  position: absolute;
+  top: 150px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: burlywood;
+}
+
+@keyframes qutu7 {
+  0% {
+    transform: rotate(-8deg);
+  }
+}
+.qutu6 {
+  position: absolute;
+  left: 450px;
+  top: 100px;
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  border: 2px solid rgb(136, 131, 131);
+  animation: qutu6 4.5s forwards;
+}
+.qutu6 .img6 {
+  position: absolute;
+  top: 168px;
+  left: -11px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: darkkhaki;
+}
+
+@keyframes qutu6 {
+  100% {
+    transform: rotate(28deg);
+  }
+}
+.qutu5 {
+  position: absolute;
+  left: 475px;
+  top: 124px;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 2px solid rgb(136, 131, 131);
+  animation: qutu5 5s forwards;
+}
+.qutu5 .img5 {
+  position: absolute;
+  top: 250px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: orangered;
+}
+
+@keyframes qutu5 {
+  100% {
+    transform: rotate(190deg);
+  }
+}
+.qutu4 {
+  position: absolute;
+  top: 150px;
+  left: 500px;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  border: 2px solid rgb(136, 131, 131);
+  animation: qutu4 6s forwards;
+}
+.qutu4 .img4 {
+  position: absolute;
+  left: 145px;
+  top: -12px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, green, blue);
+}
+
+@keyframes qutu4 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.qutu3 {
+  position: absolute;
+  top: 173px;
+  left: 525px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 2px solid rgb(136, 131, 131);
+  animation: qutu3 5s forwards;
+}
+.qutu3 .img3 {
+  position: absolute;
+  bottom: 10px;
+  left: 55px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(255, 106, 0);
+}
+
+@keyframes qutu3 {
+  100% {
+    transform: rotate(340deg);
+  }
+}
+.qutu2 {
+  position: absolute;
+  top: 198px;
+  left: 550px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid rgb(136, 131, 131);
+  animation: qutu2 4s forwards;
+}
+.qutu2 .img2 {
+  position: absolute;
+  top: 120px;
+  left: 230px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: grey;
+}
+
+@keyframes qutu2 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.qutu1 {
+  position: absolute;
+  top: 240px;
+  left: 600px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgb(249, 186, 28);
+}/*# sourceMappingURL=style.css.map */
